@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+
+# Packages
+*.skill
+*.tar.gz
+
+# Build scripts (root-level only, not nano-banana/scripts/)
+/scripts/
+
+# Firebase
+firebase-debug.log
