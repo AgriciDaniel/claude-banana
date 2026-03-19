@@ -9,7 +9,7 @@ AI image generation skill for Claude Code where **Claude acts as Creative Direct
 Unlike simple API wrappers, Claude interprets your intent, selects domain expertise, constructs optimized prompts using Google's official 5-component formula, and orchestrates Gemini for the best possible results.
 
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/claude-code)
-[![Version](https://img.shields.io/badge/version-4.0.0-coral)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.4.0-coral)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <details>
@@ -166,7 +166,7 @@ Instead of sending "a cat in space" to Gemini, Claude constructs:
 
 ```
 ~/.claude/skills/banana/          # The skill (installed location)
-├── SKILL.md                           # Creative Director orchestration (v4.0)
+├── SKILL.md                           # Creative Director orchestration (v1.4)
 ├── references/
 │   ├── prompt-engineering.md          # 5-component formula, banned keywords, safety rephrase
 │   ├── gemini-models.md               # Model specs, rate limits, capabilities

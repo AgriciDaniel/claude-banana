@@ -10,7 +10,7 @@ authors:
 repository-code: "https://github.com/AgriciDaniel/claude-banana"
 url: "https://www.skool.com/ai-marketing-hub-pro"
 license: MIT
-version: "4.0.0"
+version: "1.4.0"
 date-released: "2026-03-19"
 keywords:
   - ai-image-generation

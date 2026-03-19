@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.0.0] - 2026-03-19
+## [1.4.0] - 2026-03-19
 
 ### Breaking Changes
 - Removed `gemini-3-pro-image-preview` (Nano Banana Pro) — shut down by Google March 9, 2026
@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Prestigious context anchors replacing banned quality keywords in all templates
 
 ### Changed
-- SKILL.md version bumped to 4.0.0 with improved frontmatter
+- SKILL.md version bumped to 1.4.0 with improved frontmatter
 - gemini-models.md fully restructured with NB2/NB naming, updated pricing ($0.067/1K)
 - Model routing table uses 5-component references instead of 6-component
 - All prompt templates updated to use prestigious anchors instead of banned keywords
@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Pricing was stale ($0.039 for 3.1 Flash when actual is $0.067)
 - Rate limits updated to reflect 92% cut (Free: ~5-15 RPM / ~20-500 RPD)
 
-## [3.0.0] - 2026-03-14
+## [1.3.0] - 2026-03-14
 
 ### Added
 - **Multi-model routing** — task-based model selection table (draft/standard/quality/text-heavy/batch)
@@ -69,7 +69,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - Legacy `nano-banana/scripts/__pycache__/` (orphaned .pyc files)
 
-## [2.1.0] - 2026-03-13
+## [1.2.0] - 2026-03-13
 
 ### Added
 - 4K resolution output via `imageSize` parameter (512, 1K, 2K, 4K)
@@ -94,7 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SKILL.md markdown formatting bug on text-heavy template line
 - Contradictory prompt engineering mistake #9 wording
 
-## [2.0.0] - 2026-03-13
+## [1.0.0] - 2026-03-13
 
 ### Added
 - Initial release of Claude Banana
@@ -103,7 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Batch variations, multi-turn chat, prompt inspiration
 - Install script with validation
 
-[4.0.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v4.0.0
-[3.0.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v3.0.0
-[2.1.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v2.1.0
-[2.0.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v2.0.0
+[1.4.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v1.4.0
+[1.3.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v1.3.0
+[1.2.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v1.2.0
+[1.0.0]: https://github.com/AgriciDaniel/claude-banana/releases/tag/v1.0.0

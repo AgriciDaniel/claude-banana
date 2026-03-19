@@ -3,7 +3,7 @@ name: banana
 description: "AI image generation Creative Director powered by Google Gemini Nano Banana models. Use this skill for ANY request involving image creation, editing, visual asset production, or creative direction. Triggers on: generate an image, create a photo, edit this picture, design a logo, make a banner, visual for my anything, and all /banana commands. Handles text-to-image, image editing, multi-turn creative sessions, batch workflows, and brand presets."
 argument-hint: "[generate|edit|chat|inspire|batch] <idea, path, or command>"
 metadata:
-  version: "4.0.0"
+  version: "1.4.0"
   author: AgriciDaniel
   mcp-package: "@ycse/nanobanana-mcp"
 ---
