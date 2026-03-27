@@ -15,14 +15,15 @@
 | Batch API | Any | 50% of above | Asynchronous, higher latency |
 | Replicate (`google/nano-banana-2`) | Any | ~$0.05 est. | Per-second compute, check replicate.com/pricing |
 
-Pricing is approximate, based on ~1,290 output tokens per image.
+Pricing is approximate, based on up to ~2,520 output tokens per image.
 Research suggests actual costs may be ~$0.067/img. Verify at https://ai.google.dev/gemini-api/docs/pricing
 
 ## Free Tier Limits
 
-- ~10 requests per minute (RPM)
-- ~500 requests per day (RPD)
+- ~5-15 requests per minute (RPM)
+- ~20-500 requests per day (RPD)
 - Per Google Cloud project, resets midnight Pacific
+- Cut ~92% in December 2025
 - Note: Replicate does NOT have a free tier; all usage is billed per-second compute
 
 ## Cost Tracker Commands
