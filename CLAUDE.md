@@ -33,16 +33,20 @@ optimized prompts, and orchestrates Gemini API calls.
 | `banana/references/gemini-models.md` | Model roster, routing table, resolution defaults. Update when Google releases new models. |
 | `banana/references/prompt-engineering.md` | The prompt construction system. Update when Google publishes new guidance. |
 | `banana/references/mcp-tools.md` | API parameter reference. Update when Google changes the API. |
-| `banana/scripts/generate.py` | Direct API fallback for generation. Uses urllib.request (stdlib). |
-| `banana/scripts/edit.py` | Direct API fallback for editing. Uses urllib.request (stdlib). |
+| `banana/scripts/generate.py` | Direct Gemini API fallback for generation. Uses urllib.request (stdlib). |
+| `banana/scripts/edit.py` | Direct Gemini API fallback for editing. Uses urllib.request (stdlib). |
+| `banana/scripts/replicate_generate.py` | Replicate API fallback for generation. Uses urllib.request (stdlib). |
+| `banana/scripts/replicate_edit.py` | Replicate API fallback for editing. Uses urllib.request (stdlib). |
+| `banana/references/replicate.md` | Replicate backend reference doc (google/nano-banana-2). |
 | `.claude/agents/brief-constructor.md` | Subagent for prompt construction. |
 
 ## Scripts use stdlib only
 
-The fallback scripts (`generate.py`, `edit.py`) use Python's `urllib.request`
-to call the Gemini REST API directly. They have ZERO pip dependencies by design.
-Do NOT add `google-genai` or `requests` as dependencies -- the stdlib approach
-ensures the skill works on any system with Python 3.6+.
+The fallback scripts (`generate.py`, `edit.py`, `replicate_generate.py`,
+`replicate_edit.py`) use Python's `urllib.request` to call APIs directly.
+They have ZERO pip dependencies by design. Do NOT add `google-genai`,
+`requests`, or `replicate` as dependencies -- the stdlib approach ensures
+the skill works on any system with Python 3.6+.
 
 ## Key constraints
 
